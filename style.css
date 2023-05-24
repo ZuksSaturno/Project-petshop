@@ -1,5 +1,97 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap');
+
+:root{
+    --azul1:#99D1FF;
+    --azul2:#39688F;
+    --beje:#F6F4F1;
+    --bejeclaro:#DFC49B;
+    --bejemedio:#AF9D81;
+    --bejeescuro:#5B5247;
+    --font1:font-family: 'Libre Baskerville', serif;;
+
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
 html{
     background-color: aliceblue;
+}
+header{
+    background-color: var(--azul1);
+    color: var(--beje);
+    height: 80px;
+    display: block;
+    
+    
+}
+header>div>h1{
+    display: inline-block;
+    padding-top: 20px;
+    font-variant: small-caps;
+    font-size: 30pt;
+    
+}
+header>div>nav>ul{
+    list-style: none;
+    columns:3;
+   
+}
+a{
+    text-decoration: none;
+    color: var(--beje);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+a:hover{
+    transition: .3s;
+    color: #5b5247d7;
+}
+header>div>nav{
+    display: inline-block;
+    vertical-align: 1vh;
+    width: 215px;
+    
+    
+}
+header>div{
+    margin: auto;
+    width: 800px;
+}
+#nav2{
+    margin-left: 20px;
+    width: 215px;
+}
+section{
+height: 90vh;
+}
+#tela1{
+    position: relative;
+    background-image: url(imagens/fundo1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;  
+    
+}
+#tela1::before{
+    content: "";
+    position: absolute;
+    backdrop-filter: blur(5px);
+}
+#tela1>h2{
+    position: relative;
+    z-index: 1;
+}
+#tela2{
+    background-color: #39688F;
+}
+#tela3{
+    background-color: aquamarine;
+}
+#tela4{
+    background-color: blueviolet;
 }
