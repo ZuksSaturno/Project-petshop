@@ -69,25 +69,25 @@ header>div{
 section{
 height: 90vh;
 }
+
 #tela1{
     position: relative;
     background-image: url(imagens/fundo1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;  
-    
+    background-attachment: fixed;
+    width: 100vw;
+    filter: blur(5px);
 }
-#tela1::before{
-    content: "";
-    position: absolute;
-    backdrop-filter: blur(5px);
-}
-#tela1 h2{
+#tela1cima{
     position: relative;
-    z-index: 1;
+    width: 100vw;
+    top: -90vh;
+    color: var(--bejeescuro);
 }
+
 #tela2{
-    background-color: #39688F;
+    background-color: var(--bejeclaro);
 }
 #tela3{
     background-color: aquamarine;
