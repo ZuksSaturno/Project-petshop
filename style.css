@@ -82,7 +82,7 @@ height: 90vh;
     position: absolute;
     backdrop-filter: blur(5px);
 }
-#tela1>h2{
+#tela1 h2{
     position: relative;
     z-index: 1;
 }
