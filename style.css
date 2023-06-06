@@ -69,29 +69,45 @@ header>div{
 section{
 height: 90vh;
 }
+main{
+    height: 4vh;
+}
 
 #tela1{
-    position: relative;
+
     background-image: url(imagens/fundo1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    width: 100vw;
-    filter: blur(5px);
+    width: 98.7vw;
+    filter: blur(5px) contrast(0.9) saturate(0.6);
 }
 #tela1cima{
+    
     position: relative;
-    width: 100vw;
-    top: -90vh;
+    width: 98.7vw;
+    top: -10vh;
     color: var(--bejeescuro);
+    background-color: rgba(63, 40, 23, 0.274);
 }
 
 #tela2{
     background-color: var(--bejeclaro);
+    position: relative;
+    top: -10vh;
 }
 #tela3{
-    background-color: aquamarine;
+    background-color: rgb(13, 68, 54);
+    background-image: url(imagens/fundo2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    top: -10vh;
 }
 #tela4{
     background-color: blueviolet;
+    
+}
+footer{
+    height: 20px;
 }
