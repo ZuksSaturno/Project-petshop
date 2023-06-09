@@ -20,10 +20,10 @@
 
 html{
     background-color: aliceblue;
-    height: 2700px;
+    height: 2670px;
 }
 body{
-    height: 2700px;
+    height: 2670px;
 }
 header{
     background-color: var(--azul1);
@@ -63,7 +63,7 @@ header>div>nav{
     
 }
 header>div{
-    margin: auto;
+    margin:  auto auto auto 23vw;
     width: 800px;
 }
 #nav2{
@@ -182,6 +182,45 @@ main{
     position: relative;
     top: -90vh;
 }
+#tela3>div>h2{
+    color: var(--bejeescuro);
+    text-align: center;
+    font-size: 25pt;
+    letter-spacing: 5px;
+    font-weight: 200;
+    padding: 40px 0px 20px 0px;
+
+}
+#tela3>div>h1{
+    color: #39688F;
+    text-align: center;
+    font-size: 30pt;
+}
+#tela3>div>p{
+    color: var(--bejeescuro);
+    text-align: center;
+    padding: 20px;
+    font-size: 19pt;
+    font-weight: 100;
+    line-height: 35px;
+    background-color: #55472f00;
+}
+#tela3>div>h3{
+    color: var(--bejeescuro);
+    text-align: center;
+    font-weight: 100;
+    
+}
+#tela3>div{
+    background-color: aliceblue;
+    border: solid 3px #99D1FF;
+    position: relative;
+    width: 70vw;
+    height:60vh ;
+    margin: auto;
+    top: 15vh;
+}
+
 #tela4{
     background-color: blueviolet;
     background-image: url(imagens/fundo3.jpg);
@@ -190,9 +229,71 @@ main{
     top: -90vh;
     height: 100vh;
 }
+#tela4>div{
+    width: 70vw;
+    height: 60vh;
+    background-color: antiquewhite;
+    background-image: url(imagens/mapa.png);
+    border: solid 3px #99D1FF;
+    position: relative;
+    margin: auto;
+    top: 15vh;
+}
 footer{
     background-color: var(--bejeclaro);
     position: relative;
     top: -4vh;
-    height: 150px;
+    height: 130px;
+}
+
+#pe{
+    background-color: rgba(0, 255, 255, 0);
+    display: inline-block;
+    width: 700px;
+    position: relative;
+    top: 3vh;
+}
+#pe>h1{
+    display: inline-block;
+    color: aliceblue;
+    font-size: 30pt;
+    padding-left: 40px;
+    padding-right: 40px;
+    position: relative;
+    top: -4vh;
+}
+#pe>ul{
+    columns: 2;
+    line-height: 30px;
+    display: inline-block;
+    padding-left: 40px;
+    position: relative;
+    list-style: none;
+    color: var(--bejeescuro);
+    font-weight: 600;
+    width: 300px;
+}
+#pe2{
+    background-color: #99d1ff00;
+    width: 600px;
+    position: relative;
+    display: inline-block;
+    border-left: solid 3px #F6F4F1;
+    top: -3vh;
+    
+}
+#pe2>ul{
+    columns: 2;
+    display: inline-block;
+    list-style: none;
+    font-weight: 600;
+    color: var(--bejeescuro);
+    height: 80px;
+    position: relative;
+    top: 3vh;
+    padding-left: 30px;
+}
+#pe>ul>li:hover{
+    color: beige;
+    transition: .2s;
 }
